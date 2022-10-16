@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>Library</h1>
+        </header>
+    </nav>
+    <section>
+        <div class="add-book">
+            <button id="myBtn" class="add-btn">+ Add Book</button>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal Content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form class="add-book-card">
+                    <label for="author">Author: <input type="text" id="author" required></label>
+                    <label for="title">Title: <input type="text" id="title" required></label>
+                    <label for="numPages">Number of Pages: <input type="number" id="numPages" required></label>
+                    <label for="isRead">Read: <input type="checkbox" id="isRead" ></label>
+                    <div class="add-book"><button id="add-btn" class="add-btn">Add</button></div>
+                </form>
+            </div>
+        </div>
+        <div class="library-container">
+            <!-- <div class="card">
+                <p id="author" class="author">Author:</p>
+                <p id="title" class="title">Title:</p>
+                <p id="numPages" class="numPages">Number of Pages:</p>
+                <div class="read">
+                    Read
+                </div>
+                
+                <button class="remove-btn">Remove</button>
+            </div> -->
+        </div>
+    </section>
+</body>
+</html>
